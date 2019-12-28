@@ -96,10 +96,11 @@ Creative-Commons-Seite.\footnote{\url{https://creativecommons.org/licenses/by-sa
     % doi=true,
     % eprint=false
 % ]{biblatex}
-% \usepackage[backend=biber]{biblatex}
+\usepackage[style=authoryear,backend=biber]{biblatex}
 \usepackage{url}
-\usepackage{natbib}
-\bibliographystyle{plain}
+\addbibresource{main.bib}
+% \usepackage{natbib}
+% \bibliographystyle{plain}
 
 %%
 % Hyperlinks
@@ -314,6 +315,6 @@ Creative-Commons-Seite.\footnote{\url{https://creativecommons.org/licenses/by-sa
 \listoffigures
 
 \input{backmatter/bibliography}
-\bibliography{main}
+\printbibliography
 
 \end{document}
