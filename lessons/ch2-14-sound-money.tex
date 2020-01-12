@@ -1,217 +1,230 @@
-\chapter{Sound Money}
+\chapter{Solides Geld}
 \label{les:14}
 
 \begin{chapquote}{Lewis Carroll, \textit{Alice im Wunderland}}
-\enquote{The first thing I've got to do,} said Alice to herself, as she wandered about
-in the wood, \enquote{is to grow to my right size, and the second thing is to find my
-way into that lovely garden. I think that will be the best plan.}
+\enquote{Das erste, was ich zu tun habe,} sagte sich Alice, als sie in dem Wald
+umherwanderte, \enquote{ist meine richtige Größe wiederzuerlangen; und das
+zweite ist, den Weg in den prächtigen Garten zu finden. Ich glaube, das ist der
+beste Plan.}
 \end{chapquote}
 
-The most important lesson I have learned from Bitcoin is that in the
-long run, hard money is superior to soft money. Hard money, also
-referred to as \textit{sound money}, is any globally traded currency that
-serves as a reliable store of value.
+Die wichtigste Lektion die ich von Bitcoin gelernt habe ist, dass auf lange
+Sicht hartes Geld dem weichen Geld überlegen ist. Hartgeld, auch als
+\enquote{sound money} (solides oder gesundes Geld) bezeichnet, ist eine weltweit
+gehandelte Währung die als zuverlässiger Wertspeicher dient.
 
-Granted, Bitcoin is still young and volatile. Critics will say that it
-does not store value reliably. The volatility argument is missing the
-point. Volatility is to be expected. The market will take a while to
-figure out the just price of this new money. Also, as is often jokingly
-pointed out, it is grounded in an error of measurement. If you think in
-dollars you will fail to see that one bitcoin will always be worth one
-bitcoin.
+Zugegeben, Bitcoin ist heute noch jung und volatil. Kritiker werden anführen,
+dass es nicht sonderlich zuverlässig einen Wert speichert. Das Argument mit der
+Volatilität geht jedoch am Thema vorbei. Es ist natürlich mit Volatilität zu
+rechnen. Der Markt wird eine Weile brauchen um den gerechten Preis für dieses
+neue Geld herauszufinden. Außerdem ist die Volatilität, wie oft scherzhaft
+hervorgehoben wird, auf einen Messfehler zurückzuführen. Wenn du in Dollar
+denkst wirst du daran scheitern zu erkennen, dass ein Bitcoin immer ein Bitcoin
+bleibt.
 
 \begin{quotation}\begin{samepage}
-\enquote{A fixed money supply, or a supply altered only in accord with
-objective and calculable criteria, is a necessary condition to a
-meaningful just price of money.}
+\enquote{Eine feste Geldmenge oder eine Menge, die nur nach objektiven und
+berechenbaren Kriterien verändert wird, ist eine notwendige Bedingung für einen
+sinnvollen und gerechten Geldpreis.}
 \begin{flushright} -- Fr. Bernard W. Dempsey, S.J.\footnote{Perry J. Roets, S.J., \textit{Review of Social Economy} \cite{review-social-economy}}
 \end{flushright}\end{samepage}\end{quotation}
 
-\newpage
+Wie ein kurzer Spaziergang durch den Friedhof der vergessenen Währungen gezeigt
+hat, sobald die Möglichkeit besteht Geld zu drucken wird auch Geld gedruckt.
+Bisher war kein Mensch in der Lage dieser Versuchung zu widerstehen.
 
-As a quick stroll through the graveyard of forgotten currencies has
-shown, money which can be printed will be printed. So far, no human in
-history was able to resist this temptation.
-
-Bitcoin does away with the temptation to print money in an ingenious
-way. Satoshi was aware of our greed and fallibility --- this is why he
-chose something more reliable than human restraint: mathematics.
+Bitcoin beseitigt die Versuchung Geld zu drucken auf geniale Weise. Satoshi war
+sich unserer Gier und Fehlbarkeit bewusst --- deshalb wählte er etwas weitaus
+zuverlässigeres als die menschliche Zurückhaltung: Die Mathematik.
 
 \begin{figure}
   \centering
   \begin{equation}
   \sum\limits_{i=0}^{32} \frac{21000 \lfloor \frac{50*10^8}{2^i} \rfloor}{10^8}
   \end{equation}
-  \caption{Bitcoin's supply formula}
+  \caption{Die Formel für die Angebotsmenge von Bitcoin}
   \label{fig:supply-formula-white}
 \end{figure}
 
-While this formula is useful to describe Bitcoin's supply, it is actually
-nowhere to be found in the code. Issuance of new bitcoin is done in an
-algorithmically controlled fashion, by reducing the reward which is paid to
-miners every four years~\cite{btcwiki:supply}. The formula above is used to
-quickly sum up what is happening under the hood. What really happens can be best
-seen by looking at the change in block reward, the reward paid out to whoever
-finds a valid block, which roughly happens every 10 minutes.
+Diese Formel ist zwar nützlich um das Angebot von Bitcoin zu beschreiben, sie
+ist aber im Code eigentlich nirgendwo zu finden. Die Ausgabe neuer Bitcoins
+erfolgt algorithmisch gesteuert, indem sich die Vergütung, die den Minern als
+Belohnung bezahlt wird alle vier Jahre reduziert
+(halbiert)~\cite{btcwiki:supply}. Die obige Formel wird verwendet um schnell
+zusammenzufassen was unter der Haube passiert. Was wirklich passiert lässt sich
+am besten an der Veränderung der Höhe der Belohnung pro Block ablesen. Die
+Belohnung die demjenigen ausgezahlt wird der einen gültigen Block findet, was
+etwa alle 10 Minuten geschieht.
 
 \begin{figure}
   \includegraphics{assets/images/you-are-here.png}
-  \caption{Bitcoin's controlled supply}
+  \caption{Die kontrollierte Ausschüttung von Bitcoin}
   \label{fig:you-are-here.png}
 \end{figure}
 
-Formulas, logarithmic functions and exponentials are not exactly
-intuitive to understand. The concept of \textit{soundness} might be easier to
-understand if looked at in another way. Once we know how much there is
-of something, and once we know how hard this something is to produce or
-get our hands on, we immediately understand its value. What is true for
-Picasso's paintings, Elvis Presley's guitars, and Stradivarius violins
-is also true for fiat currency, gold, and bitcoins.
+Formeln, logarithmische Funktionen und Exponentiale sind nicht gerade intuitiv
+zu verstehen. Der Begriff der Solidität (\textit{\enquote{soundness}}) ist
+leichter zu verstehen wenn man ihn anders betrachtet. Sobald wir wissen, wie
+viel es von etwas gibt und sobald wir wissen wie schwer es ist dieses
+herzustellen oder in die Hände zu bekommen verstehen wir sofort seinen Wert. Was
+für Picassos Gemälde, Elvis Presleys Gitarren und Stradivari-Geigen gilt, gilt
+auch für Papiergeld, Gold und Bitcoins.
 
-The hardness of fiat currency depends on who is in charge of the
-respective printing presses. Some governments might be more willing to
-print large amounts of currency than others, resulting in a weaker
-currency. Other governments might be more restrictive in their money
-printing, resulting in harder currency.
+Die Härte des Fiatgeldes hängt davon ab, wer für den Betrieb der jeweiligen
+Druckmaschinen verantwortlich ist. Manche Regierungen sind bereit große Mengen
+an Währung zu drucken, was zu einer schwächeren Währung führt. Andere
+Regierungen sind eher zurückhaltend beim Geld drucken, was zu einer härteren
+Währung führt.
 
 \begin{samepage}\begin{quotation}
-\enquote{One important aspect of this new reality is that institutions like
-the Fed cannot go bankrupt. They can print any amount of money that
-they might need for themselves at virtually zero cost.}
+\enquote{Ein wichtiger Aspekt dieser neuen Realität ist, dass Institutionen wie
+die Fed nicht bankrott gehen können. Sie können jeden Geldbetrag drucken den sie
+für sich selbst benötigen, praktisch ohne Kosten.}
 \begin{flushright} -- Jörg Guido Hülsmann\footnote{Jörg Guido Hülsmann, \textit{The
 Ethics of Money Production}~\cite{hulsmann2008ethics}}
 \end{flushright}\end{quotation}\end{samepage}
 
-Before we had fiat currencies, the soundness of money was determined by
-the natural properties of the stuff which we used as money. The amount
-of gold on earth is limited by the laws of physics. Gold is rare because
-supernovae and neutron star collisions are rare. The \enquote{flow} of gold is
-limited because extracting it is quite an effort. Being a heavy element
-it is mostly buried deep underground.
+Bevor wir Fiatgeld hatten, wurde die \enquote{soundness} (Solidität) des Geldes
+durch die natürlichen Eigenschaften des Materials bestimmt, welches wir als Geld
+verwendeten. Die Menge an Gold auf der Erde ist durch die Gesetze der Physik
+begrenzt. Gold ist selten weil Supernovas und Neutronensternkollisionen selten
+sind. Der \enquote{Fluss} des Goldes ist begrenzt, da die Gewinnung des Gutes
+sehr aufwendig ist. Als schweres Element ist es meist tief unter der Erde
+vergraben.
 
-The abolishment of the gold standard gave way to a new reality: adding new money
-requires just a drop of ink. In our modern world adding a couple of zeros to the
-balance of a bank account requires even less effort: flipping a few bits in a
-bank computer is enough.
+Die Abschaffung des Goldstandards ebnete den Weg zu einer neuen Realität: Das
+Hinzufügen von neuem Geld erfordert nur einen Tropfen Tinte. In unserer heutigen
+modernen Welt erfordert das Hinzufügen von ein paar Nullen zum Saldo eines
+Bankkontos noch viel weniger Aufwand: Ein paar Bits die auf einem Bankencomputer
+geändert werden.
 
+Das oben skizzierte Prinzip lässt sich allgemeiner als das Verhältnis von
+\enquote{Stock} zu \enquote{Flow} (Bestand zu Zufluss) ausdrücken. Einfach
+ausgedrückt ist der \textit{Stock} (Bestand), wie viel von etwas derzeit
+vorhanden ist. Für unsere Zwecke ist der Bestand ein Maß für die aktuelle
+Geldmenge. Der \textit{Flow} (Zufluss) ist die Menge die über einen bestimmten
+Zeitraum (z.B. pro Jahr) produziert wird. Der Schlüssel zum Verständnis von
+solidem Geld (sound money) liegt im Verständnis dieses
+Stock-to-Flow-Verhältnisses.
 
-The principle outlined above can be expressed more generally as the
-ratio of \enquote{stock} to \enquote{flow}. Simply put, the \textit{stock} is how much of
-something is currently there. For our purposes, the stock is a measure
-of the current money supply. The \textit{flow} is how much there is produced
-over a period of time (e.g. per year). The key to understanding sound
-money is in understanding this stock-to-flow ratio.
+Die Berechnung eines Stock-to-Flow Verhältnisses für ein Fiatgeld ist schwierig,
+denn wie viel Geld es gibt hängt davon ab welche Zahlen man
+betrachtet~\cite{wiki:money-supply}. Man könnte nur Banknoten und Münzen (M0)
+zählen, Bargeld und Ersparnisse mit sofortiger Zugriffsmöglichkeit (M1)
+hinzufügen, Ersparnisse und Geldeinlagen mit 2-jähriger Laufzeit (M2) hinzufügen
+und sogar Alle Schulden und Wertpapiere mit hinzufügen (M3). Darüber hinaus ist
+die Definition und Messung all dessen von Land zu Land unterschiedlich. Da die
+US-Notenbank die Veröffentlichung von Zahlen für M3 eingestellt hat
+\cite{web:fed-m3}, werden wir uns mit dem Geldmengenangebot M2 begnügen müssen.
+Ich würde diese Zahlen gerne vorab überprüfen, aber ich schätze wir müssen der
+Fed vorerst vertrauen.
 
-Calculating the stock-to-flow ratio for fiat currency is difficult, because how
-much money there is depends on how you look at it.~\cite{wiki:money-supply} You
-could count only banknotes and coins (M0), add traveler checks and check
-deposits (M1), add saving accounts and mutual funds and some other things (M2),
-and even add certificates of deposit to all of that (M3). Further, how all of
-this is defined and measured varies from country to country and since the US
-Federal Reserve stopped publishing \cite{web:fed-m3} numbers for M3, we will
-have to make do with the M2 monetary supply. I would love to verify these
-numbers, but I guess we have to trust the fed for now.
+Gold, eines der seltensten Metalle der Erde hat das höchste
+Stock-to-Flow-Verhältnis. Nach Angaben des US Geological Survey wurden insgesamt
+etwas mehr als 190.000 Tonnen abgebaut. In den letzten Jahren wurden rund 3.100
+Tonnen Gold pro Jahr gefördert.~\cite{mineral-commodity-summaries}
 
-Gold, one of the rarest metals on earth, has the highest stock-to-flow
-ratio. According to the US Geological Survey, a little more than 190,000
-tons have been mined. In the last few years, around 3100 tons of gold
-have been mined per year.~\cite{mineral-commodity-summaries}
-
-Using these numbers, we can easily calculate the stock-to-flow ratio for
-gold (see Figure~\ref{fig:stock-to-flow-gold}).
+Mit diesen Zahlen können wir das Stock-to-Flow-Verhältnis für Gold leicht
+berechnen (siehe Abbildung~\ref{fig:stock-to-flow-gold}).
 
 \begin{figure}
   \centering
   \begin{equation}
   \frac{190,000 t}{3,100 t} = ~ 61
   \end{equation}
-  \caption{Stock-to-flow ratio of gold}
+  \caption{Stock-to-Flow Verhältnis von Gold}
   \label{fig:stock-to-flow-gold}
 \end{figure}
 
-Nothing has a higher stock-to-flow ratio than gold. This is why gold, up to now,
-was the hardest, soundest money in existence. It is often said that all the gold
-mined so far would fit in two olympic-sized swimming pools. According to my
-calculations\footnote{\url{https://bit.ly/gold-pools}}, we would need four. So
-maybe this needs updating, or Olympic-sized swimming pools got smaller.
+Nichts hat ein höheres Stock-to-Flow-Verhältnis als Gold. Deshalb war Gold
+bisher das härteste und zuverlässigste Geld das es gab. Es wird oft behauptet,
+dass das gesamte bisher geförderte Gold in zwei Olypmia Schwimmbecken passen
+würde. Nach meinen Berechnungen\footnote{\url{https://bit.ly/gold-pools}} würden
+wir vier brauchen. Vielleicht sollte das aktualisiert werden oder aber die
+olympischen Schwimmbäder werden kleiner.
 
-Enter Bitcoin. As you probably know, bitcoin mining was all the rage in
-the last couple of years. This is because we are still in the early
-phases of what is called the \textit{reward era}, where mining nodes are
-rewarded with \textit{a lot} of bitcoin for their computational effort. We are
-currently in reward era number 3, which began in 2016 and will end in
-early 2020, probably in May. While the bitcoin supply is predetermined,
-the inner workings of Bitcoin only allow for approximate dates.
-Nevertheless, we can predict with certainty how high Bitcoin's
-stock-to-flow ratio will be. Spoiler alert: it will be high.
+Nun zu Bitcoin. Wie du wahrscheinlich weißt, war das Bitcoin-Mining in den
+letzten Jahren in aller Munde. Denn wir befinden uns noch in den Anfängen der so
+genannten \textit{Belohnungs-Ära}, in der Miner mit verhältnismäßig vielen
+Bitcoin für ihren Rechenaufwand belohnt werden. Wir befinden uns derzeit in der
+Belohnungsära Nummer 3, die 2016 begann und Anfang 2020, wahrscheinlich im Mai
+enden wird. Während die Bitcoin-Geldmenge vorgegeben ist, erlauben die inneren
+Mechanismen nur die ungefähre Vorhersage des Tages X der Halbierung. Dennoch
+können wir mit Sicherheit vorhersagen wie hoch das Stock-to-Flow-Verhältnis von
+Bitcoin sein wird. Spoiler-Alarm: Es wird hoch sein.
 
-How high? Well, it turns out that Bitcoin will get infinitely hard (see
-Figure~\ref{fig:stock-to-flow-white-cropped}).
+Wie hoch? Nun es stellt sich heraus, dass Bitcoin unendlich hart wird (siehe
+Abbildung~\ref{fig:stock-to-flow-white-cropped}).
 
 \begin{figure}
   \includegraphics{assets/images/stock-to-flow-white-cropped.png}
-  \caption{Visualization of stock and flow for USD, gold, and Bitcoin}
+  \caption{Die Visualisierung des Stock-to Flow Modells für Fiat, Gold und Bitcoin}
   \label{fig:stock-to-flow-white-cropped}
 \end{figure}
 
 \paragraph{}
-Due to an exponential decrease of the mining reward, the flow of new
-bitcoin will diminish resulting in a sky-rocketing stock-to-flow ratio.
-It will catch up to gold in 2020, only to surpass it four years later by
-doubling its soundness again. Such a doubling will occur 64 times in
-total. Thanks to the power of exponentials, the number of bitcoin mined
-per year will drop below 100 bitcoin in 50 years and below 1 bitcoin in
-75 years. The global faucet which is the block reward will dry up
-somewhere around the year 2140, effectively stopping the production of
-bitcoin. This is a long game. If you are reading this, you are still
-early.
+Der Zufluss an neuen Bitcoins wird aufgrund der exponentiellen Abnahme der
+Mining Belohnungen rapide abnehmen. Dies führt zu einem stark ansteigendem
+Stock-to-Flow-Verhältnis. Im Jahr 2020 wird das S2F-Verhältnis Bitcoins zum Gold
+aufschließen und vier Jahre später wird es das von Gold übertreffen. Es
+verdoppelt seine \enquote{soundness}. Diese Verdoppelung wird insgesamt 64 Mal
+stattfinden. Dank der Macht der Expontentialwerte wird die Zahl der jährlich
+abgebauten Bitcoins in 50 Jahren unter 100 Bitcoins und in 75 Jahren unter 1
+Bitcoin sinken. Die globale Frischversorgung an Bitcoin, den die Blockbelohnung
+darstellt, wird irgendwann um das Jahr 2140 versiegen und die Produktion von
+frischen Bitcoin stoppen. Das ist ein sehr langer Zeitraum. Wenn du das liest
+bist du also sehr früh dran.
 
 \begin{figure}
   \includegraphics{assets/images/soundness-over-time.png}
-  \caption{Rising stock-to-flow ratio of bitcoin as compared to gold}
+  \caption{Steigendes Stock-to-Flow-Verhältnis von Bitcoin im Vergleich zu Gold}
   \label{fig:soundness-over-time}
 \end{figure}
 
-As bitcoin approaches infinite stock to flow ratio it will be the
-soundest money in existence. Infinite soundness is hard to beat.
+Je weiter sich Bitcoin dem unendlich steigenden Stock-to-Flow Verhältnis
+annähert, umso solider wird es. Unendliche \enquote{soundness} ist schwer zu
+übertreffen.
 
-Viewed through the lens of economics, Bitcoin's \textit{difficulty adjustment}
-is probably its most important component. How hard it is to mine bitcoin depends
-on how quickly new bitcoins are mined.\footnote{It actually depends on how
-quickly valid blocks are found, but for our purposes, this is the same thing as
-\enquote{mining bitcoins} and will be so for the next 120 years.} It is the dynamic
-adjustment of the network's mining difficulty which enables us to predict its
-future supply.
+Aus der Sicht der Ökonomie ist die Schwierigkeitsanpassung
+(\textit{difficulty-adjustment}) von Bitcoin wahrscheinlich die wichtigste
+Komponente des Systems. Wie schwer es ist Bitcoin zu schürfen hängt davon ab,
+wie schnell neue Bitcoins abgebaut werden\footnote{Es hängt eigentlich davon ab,
+wie schnell gültige Blöcke gefunden werden, aber für unsere Zwecke ist dies
+dasselbe wie \enquote{Bitcoins zu schürfen} und wird das es für die nächsten 120
+Jahre sein.}. Es ist die dynamische Schwierigkeitsanpassung, die es uns
+ermöglicht die zukünftige Geldmenge vorherzusagen.
 
-The simplicity of the difficulty adjustment algorithm might distract
-from its profundity, but the difficulty adjustment truly is a revolution
-of Einsteinian proportions. It ensures that, no matter how much or how
-little effort is spent on mining, Bitcoin's controlled supply won't be
-disrupted. As opposed to every other resource, no matter how much
-energy someone will put into mining bitcoin, the total reward will not
-increase.
+Die Einfachheit des Algorithmus der Schwierigkeitsanpassung mag von seiner Tiefe
+ablenken, aber der Mechanismus der Schwierigkeitsanpassung ist wirklich eine
+Revolution von einsteinischem Ausmaße. Dieser stellt sicher, dass die
+vorbestimmte Geldmenge von Bitcoin nicht beeinflusst wird, unabhängig davon wie
+viel oder wenig Aufwand für den Abbau aufgewendet wird. Im Gegensatz zu jeder
+anderen Ressource, egal wie viel Energie jemand in den Abbau von Bitcoin steckt,
+die Gesamtvergütung wird nicht steigen.
 
-Just like $E=mc^2$ dictates the universal speed limit in our universe,
-Bitcoin's difficulty adjustment dictates the \textbf{universal money limit}
-in Bitcoin.
+So wie $E=mc^2$ die Lichtgeschwindigkeit und damit das absolute
+Geschwindigkeitslimit in unserem Universum vorgibt, so bestimmt die
+Schwierigkeitsanpassung von Bitcoin das \textit{universelle Geldlimit} im
+Bitcoin System.
 
 \paragraph{}
-If it weren't for this difficulty adjustment, all bitcoins would have been mined
-already. If it weren't for this difficulty adjustment, Bitcoin probably wouldn't
-have survived in its infancy. It is what secures the network in its reward era.
-It is what ensures a steady and fair distribution\footnote{Dan Held,
-\textit{Bitcoin's Distribution was Fair}~\cite{distribution-was-fair}} of new
-bitcoin. It is the thermostat which regulates Bitcoin's monetary policy.
+Ohne die Schwierigkeitsanpassung wären alle Bitcoins bereits abgebaut worden.
+Bitcoin hätte seine Kindertage ohne die Schwierigkeitsanpassung wahrscheinlich
+nicht überlebt. Es ist das was das Netzwerk in seiner Belohnungs-Ära absichert.
+Es ist das was eine gleichmäßige und faire Verteilung\footnote{Dan Held,
+\textit{Bitcoin's Distribution was Fair}~\cite{distribution-was-fair}} von neuen
+Bitcoins gewährleistet. Es ist das Thermostat das die Geldpolitik hinter Bitcoin
+regelt.
 
-Einstein showed us something novel: no matter how hard you push an
-object, at a certain point you won't be able to get more speed out of
-it. Satoshi also showed us something novel: no matter how hard you dig
-for this digital gold, at a certain point you won't be able to get more
-bitcoin out of it. For the first time in human history, we have a
-monetary good which, no matter how hard you try, you won't be able to
-produce more of.
+Einstein offenbarte uns eine neue Erkenntnis: Egal wie stark man ein Objekt auch
+beschleunigt, ab einem gewissen Punkt wird man nicht mehr Geschwindigkeit
+herausholen können. Satoshi zeigte uns auch etwas Neues: Egal wie sehr man nach
+diesem digitalen Gold graben möchte, irgendwann wird man nicht mehr herausholen
+können. Zum ersten Mal in der Geschichte der Menschheit haben wir ein monetäres
+Gut von dem man --- egal wie sehr man es versucht --- nicht mehr produzieren
+kann.
 
-\paragraph{Bitcoin taught me that sound money is essential.}
+\paragraph{Bitcoin lehrte mich, dass solides Geld unerlässlich ist.}
 
 % ---
 %
