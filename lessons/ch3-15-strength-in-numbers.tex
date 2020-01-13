@@ -2,75 +2,78 @@
 \label{les:15}
 
 \begin{chapquote}{Lewis Carroll, \textit{Alice im Wunderland}}
-\enquote{Let me see: four times five is twelve, and four times six is thirteen, and
-four times seven is fourteen—oh dear! I shall never get to twenty at this
-rate!}
+\enquote{Mal sehen: Viermal fünf ist zwölf, und viermal sechs ist dreizehn, und
+viermal sieben ist vierzehn – oh je! Auf diese Weise komme ich ja nie bis
+Zwanzig!}
 \end{chapquote}
 
-Numbers are an essential part of our everyday life. Large numbers,
-however, aren't something most of us are too familiar with. The largest
-numbers we might encounter in everyday life are in the range of
-millions, billions, or trillions. We might read about millions of people
-in poverty, billions of dollars spent on bank bailouts, and trillions of
-national debt. Even though it's hard to make sense of these headlines,
-we are somewhat comfortable with the size of those numbers.
+Zahlen sind ein wesentlicher Bestandteil unseres alltäglichen Lebens. Die
+meisten von uns sind jedoch nicht recht gut mit großen Zahlen vertraut. Die
+größten Zahlen denen wir im täglichen Leben begegnen, liegen in der
+Größenordnung von Millionen, Milliarden oder Billionen. Wir können über
+Millionen von Menschen in Armut oder Milliarden von Dollar die für die
+Rettungsschirme für Banken ausgegeben werden oder gar über Trillionen von
+Staatsschulden lesen. Auch wenn es schwer ist diese Schlagzeilen zu
+interpretieren, können wir Zahlen dieser Größenordnung gewissermaßen einordnen.
 
-Although we might seem comfortable with billions and trillions, our
-intuition already starts to fail with numbers of this magnitude. Do you
-have an intuition how long you would have to wait for a
-million/billion/trillion seconds to pass? If you are anything like me,
-you are lost without actually crunching the numbers.
+Obwohl wir mit Milliarden und Billionen noch etwas anfangen können, beginnt
+unsere Intuition bereits bei Zahlen der Größenordnung Milliarden zu versagen.
+Hast du eine Ahnung, wie lange du warten müsstest bis eine Million / Milliarden
+/ Billionen Sekunden vergehen? Wenn du nur ein bisschen wie ich bist, wärst du
+jetzt verloren ohne die Zahlen genauer runterzubrechen.
 
-Let's take a closer look at this example: the difference between each is an
-increase by three orders of magnitude: $10^6$, $10^9$, $10^{12}$. Thinking about
-seconds is not very useful, so let's translate this into something we can wrap
-our head around:
+Betrachten wir das Beispiel: Der Unterschied ist eine Erhöhung um drei
+Zehnerpotenzen: $10^6$, $10^9$, $10^{12}$. In Sekunden zu denken bringt uns
+nicht weiter also lass uns das in etwas übersetzen das wir verstehen:
 
 \begin{itemize}
-  \item $10^6$: One million seconds was $1 1/2$ weeks ago.
-  \item $10^9$: One billion seconds was almost 32 years ago.
-  \item $10^{12}$: One trillion seconds ago Manhattan was covered under a thick
-  layer of ice.\footnote{One trillion seconds ($10^{12}$) was $31710$ years ago. The Last Glacial
-  Maximum was $33,000$ years ago.~\cite{wiki:LGM}}
+  \item $10^6$: Eine Million Sekunden war vor $1 1/2$ Wochen.
+  \item $10^9$: Eine Milliarde Sekunden war vor fast 32 Jahren.
+  \item $10^{12}$: Vor einer Billion Sekunden war Manhattan noch von einer
+  dicken Eisschicht bedeckt.\footnote{Eine Billion Sekunden ($10^{12}$)
+  entspricht $31.710$ Jahren. Das letzte Glazial setzte vor etwa 115.000 Jahren
+  ein und endete vor etwa 11.700 Jahren.~\cite{wiki:LGM}}
 \end{itemize}
 
 \begin{figure}
   \includegraphics{assets/images/xkcd-1225.png}
-  \caption{About 1 trillion seconds ago. Source: xkcd 1225}
+  \caption{Dicke der Eisschichten vor ungefähr einer Billion Sekunden. Quelle: xkcd 1225}
   \label{fig:xkcd-1225}
 \end{figure}
 
-As soon as we enter the beyond-astronomical realm of modern
-cryptography, our intuition fails catastrophically. Bitcoin is built
-around large numbers and the virtual impossibility of guessing them.
-These numbers are way, way larger than anything we might encounter in
-day-to-day life. Many orders of magnitude larger. Understanding how
-large these numbers truly are is essential to understanding Bitcoin as a
-whole.
+Sobald wir in den Bereich der modernen Kryptographie eintreten, versagt unsere
+Intuition katastrophal. Bitcoin wurde um große Zahlen herum aufgebaut. Alles mit
+der Tatsache, dass es praktisch unmöglich ist diese zu erraten. Die Zahlen sind
+weitaus größer als alles was uns im Alltag begegnen könnte. Viele Zehnerpotenzen
+größer. Zu verstehen wie groß diese Zahlen wirklich sind, ist entscheidend für
+das Verständnis von Bitcoin als großem Ganzen.
 
-Let's take SHA-256\footnote{SHA-256 is part of the SHA-2 family of cryptographic
-hash functions developed by the NSA.~\cite{wiki:sha2}}, one of the hash
-functions\footnote{Bitcoin uses SHA-256 in its block hashing
-algorithm.~\cite{btcwiki:block-hashing}} used in Bitcoin, as a concrete example.
-It is only natural to think about 256 bits as \enquote{two hundred fifty-six,} which
-isn't a large number at all. However, the number in SHA-256 is talking about
-orders of magnitude --- something our brains are not well-equipped to deal with.
+Nehmen wir SHA-256\footnote{SHA-256 ist Teil von SHA-2, eine Gruppe von
+verschiedenen kryptologischen Hashfunktionen welche von der NSA entwickelt
+wurde.~\cite{wiki:sha2}}, eine der in Bitcoin verwendeten
+Hashfunktionen\footnote{Bitcoin verwendet SHA-256 als
+Block-Hashing-Algorithmus.~\cite{btcwiki:block-hashing}} als konkretes Beispiel.
+Es liegt in der Natur der Sache, bei 256 Bits an
+\enquote{Zweihundertsechsundfünzig} zu denken, was an sich ja keine große Zahl
+ist. Die Zahl in SHA-256 spricht jedoch von Potenzen -- etwas womit unser Gehirn
+eben nicht sonderlich gut klar kommt.
 
-While bit length is a convenient metric, the true meaning of 256-bit
-security is lost in translation. Similar to the millions ($10^6$) and
-billions ($10^9$) above, the number in SHA-256 is about orders of magnitude
-($2^{256}$).
+Während die Länge der Bits eine bequeme Metrik ist, geht die wahre Bedeutung der
+256-Bit-Sicherheit bei der Übersetzung verloren. Ähnlich wie bei den oben
+genannten Millionen ($10^6$) und Milliarden ($10^9$) spricht die Zahl in SHA-256
+von Größenordnungen ($2^{256}$).
 
-So, how strong is SHA-256, exactly?
+Also, wie stark ist SHA-256 genau?
 
 \begin{quotation}\begin{samepage}
-\enquote{SHA-256 is very strong. It's not like the incremental step from MD5
-to SHA1. It can last several decades unless there's some massive
-breakthrough attack.}
-\begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, in a reply to questions about SHA-256 collisions. \cite{satoshi-sha256}}
+\enquote{SHA-256 ist sehr stark. Es ist nicht wie der nächste Schritt von MD5 zu
+SHA1. Es kann mehrere Jahrzehnte andauern, es sei denn es gibt einen massiven
+technologischen Durchbruch.}
+\begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, in einer
+Antwort zu Fragen über SHA-256 Kollisionen. \cite{satoshi-sha256}}
 \end{flushright}\end{samepage}\end{quotation}
 
-Let's spell things out. $2^{256}$ equals the following number:
+Ausgeschrieben ergibt $2^{256}$ folgende Zahl:
 
 \begin{quotation}\begin{samepage}
     115 quattuorvigintillion 792 trevigintillion 89 duovigintillion 237
