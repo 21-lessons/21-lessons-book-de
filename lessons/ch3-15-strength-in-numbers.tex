@@ -18,16 +18,16 @@ interpretieren, können wir Zahlen dieser Größenordnung gewissermaßen einordn
 
 Obwohl wir mit Milliarden und Billionen noch etwas anfangen können, beginnt
 unsere Intuition bereits bei Zahlen der Größenordnung Milliarden zu versagen.
-Hast du eine Ahnung, wie lange du warten müsstest bis eine Million / Milliarden
-/ Billionen Sekunden vergehen? Wenn du nur ein bisschen wie ich bist, wärst du
-jetzt verloren ohne die Zahlen genauer runterzubrechen.
+Hast du eine Ahnung, wie lange du warten müsstest bis eine Million / Milliarde
+/ Billion Sekunden vergehen? Wenn du nur ein bisschen wie ich bist, wärst du
+jetzt verloren ohne das Ergebnis zu berechnen.
 
-Betrachten wir das Beispiel: Der Unterschied ist eine Erhöhung um drei
+Betrachten wir folgendes Beispiel: Der Unterschied ist eine Erhöhung um drei
 Zehnerpotenzen: $10^6$, $10^9$, $10^{12}$. In Sekunden zu denken bringt uns
 nicht weiter also lass uns das in etwas übersetzen das wir verstehen:
 
 \begin{itemize}
-  \item $10^6$: Eine Million Sekunden war vor $1 1/2$ Wochen.
+  \item $10^6$: Eine Million Sekunden war vor $1 \frac{1}{2}$ Wochen.
   \item $10^9$: Eine Milliarde Sekunden war vor fast 32 Jahren.
   \item $10^{12}$: Vor einer Billion Sekunden war Manhattan noch von einer
   dicken Eisschicht bedeckt.\footnote{Eine Billion Sekunden ($10^{12}$)
@@ -56,10 +56,10 @@ Block-Hashing-Algorithmus.~\cite{btcwiki:block-hashing}} als konkretes Beispiel.
 Es liegt in der Natur der Sache, bei 256 Bits an
 \enquote{Zweihundertsechsundfünzig} zu denken, was an sich ja keine große Zahl
 ist. Die Zahl in SHA-256 spricht jedoch von Potenzen -- etwas womit unser Gehirn
-eben nicht sonderlich gut klar kommt.
+eben nicht sonderlich gut umgehen kann.
 
 Während die Länge der Bits eine bequeme Metrik ist, geht die wahre Bedeutung der
-256-Bit-Sicherheit bei der Übersetzung verloren. Ähnlich wie bei den oben
+256-Bit-Sicherheit durch diese Schreibweise verloren. Ähnlich wie bei den oben
 genannten Millionen ($10^6$) und Milliarden ($10^9$) spricht die Zahl in SHA-256
 von Größenordnungen ($2^{256}$).
 
@@ -76,7 +76,7 @@ Antwort zu Fragen über SHA-256 Kollisionen. \cite{satoshi-sha256}}
 Ausgeschrieben ergibt $2^{256}$ folgende Zahl:
 
 \begin{quotation}\begin{samepage}
-    11 Duodezilliarden 579 Duodezillionen 289 Undezilliarden 237 Undezillionen
+    115 Duodezilliarden 792 Duodezillionen 89 Undezilliarden 237 Undezillionen
     316 Dezilliarden 195 Dezillionen 423 Nonilliarden 570 Nonillionen 985
     Oktilliarden 8 Oktillionen 687 Septilliarden 907 Septillionen 853
     Sextilliarden 269 Sextillionen 984 Quintilliarden 665 Quintillionen 640
@@ -84,16 +84,17 @@ Ausgeschrieben ergibt $2^{256}$ folgende Zahl:
     Billiarden 7 Billionen 913 Milliarden 129 Millionen 639 Tausend 936.
 \end{samepage}\end{quotation}
 
-Das sind viele Nonilliarden! Es ist unmöglich diese Zahl zu verstehen. Es gibt
-nichts im physikalischen Universum womit man sie vergleichen könnte. Sie ist
-weitaus größer als die Anzahl aller Atome im beobachtbaren Universum. Das
-menschliche Gehirn ist einfach nicht dafür geeignet schlau daraus zu werden.
+Das sind viele Nonilliarden! Es ist schier unmöglich diese Zahl zu verstehen. Es
+gibt nichts im physikalischen Universum womit man sie vergleichen könnte. Sie
+ist weitaus größer als die Anzahl aller Atome im beobachtbaren Universum. Eine
+Zahl von dieser Größenordnung ergibt einfach keinen Sinn für unser menschliches
+Gehirn.
 
-Eine der besten Visualisierungen der wahren Stärke von SHA-256 ist das folgende
-Video von Grant Sanderson. Mit dem treffenden Namen \textit{\enquote{Wie sicher
-ist 256-Bit-Sicherheit?}}\footnote{\url{https://youtu.be/S9JGmA5_unY}} Tu dir
-selbst den Gefallen und nimm dir die fünf Minuten Zeit um es dir anzusehen. Wie
-alle anderen 3Blue1Brown Videos ist es nicht nur faszinierend, sondern auch
+Eine der besten Visualisierungen der wahren Stärke von SHA-256 ist ein  Video
+von Grant Sanderson. Mit dem treffenden Namen \textit{\enquote{Wie sicher ist
+256-Bit-Sicherheit?}}\footnote{\url{https://youtu.be/S9JGmA5_unY}} Tu dir selbst
+den Gefallen und nimm dir die fünf Minuten Zeit um es dir anzusehen. Wie alle
+anderen 3Blue1Brown Videos ist es nicht nur faszinierend, sondern auch
 außergewöhnlich gut gemacht. Warnung: Du könntest in einen Mathe-Kaninchenbau
 fallen.
 
@@ -122,10 +123,11 @@ etwas anderem als Materie gebaut werden und etwas anderes als Raum belegen.}
 \begin{flushright} -- Bruce Schneier\footnote{Bruce Schneier, \textit{Applied Cryptography} \cite{bruce-schneier}}
 \end{flushright}\end{samepage}\end{quotation}
 
-Es ist schwer die Tiefgängikeit davon zu verdeutlichen. Starke Kryptographie
-kehrt das Machtgleichgewicht der physischen Welt, an die wir so gewöhnt sind,
-um. Dinge die man nicht knacken kann gibt es in der realen Welt nicht. Wende
-genug Kraft auf und du kannst jede Tür, Box oder Schatzkiste öffnen.
+Es ist schwer die Tiefgängikeit dieser Aussage zu verdeutlichen. Starke
+Kryptographie kehrt das Machtgleichgewicht der physischen Welt, an die wir so
+gewöhnt sind, um. Dinge die man nicht knacken kann gibt es in der realen Welt
+nicht. Wende genug Kraft auf und du kannst jede Tür, Box oder Schatzkiste
+öffnen.
 
 Die Schatzkiste von Bitcoin ist ganz anders. Sie wird durch eine starke
 Kryptographie gesichert, die Brute-Force Angriffen nur wenige Chancen bietet.
@@ -144,10 +146,10 @@ Sonnen versuchst. Wortwörtlich.
   \label{fig:xkcd-538}
 \end{figure}
 
-Diese Tatsache und ihre Auswirkungen wurden in dem \enquote{Call to
-Cryptographic Arms} (\enquote{Aufruf zu kryptographischen Waffen}) treffend
-zusammengefasst: \textit{\enquote{Keine Menge an Zwang oder Gewalt wird jemals ein
-mathematisches Problem lösen.}}
+Diese Tatsache und ihre Auswirkungen wurden in dem \enquote{\textit{Call to
+Cryptographic Arms}} (\enquote{Aufruf zu kryptographischen Waffen}) treffend
+zusammengefasst: \textit{\enquote{Keine Menge an Zwang oder Gewalt wird jemals
+ein mathematisches Problem lösen.}}
 
 \begin{quotation}\begin{samepage}
 \enquote{Es ist nicht offensichtlich, dass die Welt auf diese Weise
@@ -161,9 +163,9 @@ ist möglich, dass unsere Annahme von mathematischen Asymmetrien falsch sind und
 wir feststellen, dass P tatsächlich gleich NP \cite{wiki:pnp} ist oder wir
 finden überraschender Weise schnelle Lösungen für spezifische Probleme
 \cite{wiki:discrete-log} von denen wir derzeit annehmen, dass sie sehr schwer
-oder gar unmöglich lösbar sind. Sollte dies der Fall sein wird die
-Kryptographie, wie wir sie kennen, nicht mehr existieren und die Auswirkungen
-würden höchstwahrscheinlich die Welt bis zur Unkenntlichkeit verändern.
+oder gar nicht lösbar sind. Sollte dies der Fall sein wird die Kryptographie,
+wie wir sie kennen, aufhören zu existieren und die Auswirkungen würden
+höchstwahrscheinlich die Welt bis zur Unkenntlichkeit verändern.
 
 \begin{quotation}\begin{samepage}
 \enquote{Vires in Numeris} = \enquote{Stärke in Zahlen}\footnote{\textit{Vires
@@ -179,10 +181,10 @@ liegt.
 
 Ein direktes Resultat dessen ist die Tatsache, dass man niemanden um Erlaubnis
 bitten muss um an Bitcoin teilzunehmen. Es gibt keine Seite auf der man sich
-anmelden kann, kein verantwortliches Unternehmen, keine Regierungsbehörde an die
+anmelden muss, kein verantwortliches Unternehmen, keine Regierungsbehörde an die
 man Antragsformulare senden muss. Erstelle dir einfach eine große Zahl und du
 kannst direkt loslegen. Die zentrale Behörde für die Kontoerstellung ist die
-Mathematik. Und nur Gott weiß, wer dafür verantwortlich ist.
+Mathematik.
 
 \begin{figure}
   \includegraphics{assets/images/elliptic-curve-examples.png}
@@ -196,14 +198,14 @@ bei einigen Dingen ziemlich sicher. Dass es eine Asymmetrie zwischen dem Finden
 von Lösungen und der Validierung der Richtigkeit dieser Lösungen gibt, ist eine
 solche. Dass die Berechnung Energie benötigt ist eine andere. Mit anderen
 Worten: Eine Nadel in einem Heuhaufen zu finden ist schwieriger, als zu prüfen
-ob das spitze Ding in der Hand tatsächlich eine Nadel ist oder nicht. Die Nadel
-zu finden erfordert viel Arbeit.
+ob das spitze Ding in der Hand tatsächlich eine Nadel ist oder nicht. Und das
+Finden der Nadel erfordert Arbeit.
 
 Die Weite vom Raum der Bitcoinadressen ist wahrlich unbegreiflich. Die Anzahl
-der privaten Schlüssel sogar noch mehr. Es ist faszinierend wie viel von unserer
-modernen Welt auf die Unwahrscheinlichkeit hinausläuft, eine Nadel in einem
-unergründlich großen Heuhaufen zu finden. Ich bin mir dieser Tatsache heute mehr
-denn je bewusst.
+der möglichen privaten Schlüssel ist sogar noch größer. Es ist faszinierend wie
+viel von unserer modernen Welt auf die Unwahrscheinlichkeit hinausläuft, eine
+Nadel in einem unvorstellbar großen Heuhaufen zu finden. Ich bin mir dieser
+Tatsache heute mehr denn je bewusst.
 
 \paragraph{Bitcoin lehrte mich, dass eine unglaubliche Stärke in Zahlen steckt.}
 
