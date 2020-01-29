@@ -7,11 +7,12 @@
 
 Bitcoin zielt darauf ab konventionelle Währungen zu ersetzen oder zumindest eine
 Alternative zu diesen zu bieten. Eine konventionelle Währung ist an eine
-zentralisierte Behörde gebunden, egal ob es sich um gesetzliche Zahlungsmittel
-wie den US-Dollar oder modernes Monopolygeld wie WoW-Gold oder V-Bucks von
-Fortnite handelt. In beiden Beispielen bist du gezwungen der zentralen Behörde
-zu vertrauen: Bei der Geldausgabe, der Verwaltung und dabei das Geld in Umlauf
-zu bringen. Bitcoin löst diese Bindung, denn das Hauptproblem, das durch Bitcoin
+zentrale Behörde gebunden, egal ob es sich um gesetzliche Zahlungsmittel wie den
+US-Dollar oder modernes Monopolygeld wie WoW-Gold oder V-Bucks von Fortnite
+handelt. In beiden Beispielen bist du gezwungen der zentralen Behörde in Sachen
+Verwaltung und Erstellung zu vertrauen. Vertrauen ist auch nötig wenn is darum
+geht das erstellte Geld auf eine faire Art und Weise in Umlauf zu bringen.
+Bitcoin beseitigt diese Abhängigkeit, denn das Hauptproblem, das durch Bitcoin
 gelöst wird, ist das Problem des \textit{Vertrauens}.
 
 \begin{quotation}\begin{samepage}
@@ -22,21 +23,21 @@ Vertrauen basiert.}
 \begin{flushright} -- Satoshi Nakamoto\footnote{Satoshi Nakamoto, official Bitcoin announcement~\cite{bitcoin-announcement} and whitepaper~\cite{whitepaper}}
 \end{flushright}\end{samepage}\end{quotation}
 
-Bitcoin löst das Problem des Vertrauens, indem es völlig dezentralisiert ist,
-ohne zentralen Server oder zu Parteien, denen man vertrauen müsste. Wenn es
+Bitcoin löst das Problem des Vertrauens, indem es völlig dezentralisiert ist. Es
+gibt keine zentralen Server oder Parteien, denen man vertrauen müsste. Wenn es
 keine zentrale Behörde gibt, gibt es einfach niemanden dem man vertrauen muss.
-Volle Dezentralisierung ist die Innovation. Es ist die Wurzel der
+Radikale Dezentralisierung ist die Innovation. Es ist die Wurzel der
 Widerstandsfähigkeit von Bitcoin, der Grund, warum es noch am Leben ist.
 Dezentralisierung ist auch der Grund warum wir Mining, Nodes, (Hardware-)Wallets
 und die Blockchain haben. Das einzige worin man \enquote{vertrauen} muss ist,
-dass unser Verständnis von Mathematik und Physik nicht völlig fehl am Platz ist
+dass unser Verständnis von Mathematik und Physik nicht völlig falsch ist
 und dass die Mehrheit der Miner ehrlich agiert (wofür sie auch Anreize haben).
 
 Während die reguläre Welt unter der Annahme \textit{\enquote{trust, but verify}}
 (vertraue, aber verifiziere) arbeitet, arbeitet Bitcoin unter der Annahme von
 \textit{\enquote{don’t trust, verify}} (vertraue nicht, verifiziere!). Satoshi
 betonte die Wichtigkeit des Entzuges des Vertrauens an zweierlei Stellen im
-Whitepaper. In der Einleitung, wie auch im Fazit des Bitcoin-Whitepapers.
+Bitcoin-Whitepaper. In der Einleitung, wie auch im Fazit.
 
 \begin{quotation}\begin{samepage}
 \enquote{Fazit: Wir haben ein System für elektronische Transaktionen
@@ -47,26 +48,18 @@ whitepaper~\cite{whitepaper}}
 
 Beachte, dass \enquote{ohne auf Vertrauen angewiesen zu sein} hier in einem sehr
 speziellen Kontext verwendet wird. Wir sprechen von vertrauenswürdigen Dritten,
-d.h. von anderen Unternehmen/Staaten denen man vertrauen muss, dass sie dein
+d.h. von anderen Unternehmen/Staaten denen man vertrauen muss, dass sie unser
 Geld produzieren, halten und verarbeiten. Es ist jedoch anzunehmen, dass man zum
 Beispiel seinem Computer vertrauen kann.
 
 Wie Ken Thompson in seinem Turing Award Vortrag zeigte ist Vertrauen eine extrem
 schwierige Sache in der Computerwelt. Wenn du ein Programm ausführst, musst du
-allen Arten von Software (und Hardware) vertrauen die theoretisch das Programm,
-das du ausführst, in bösartiger Weise verändern könnten. Wie Thompson in seinen
-\textit{Reflections on Trusting Trust} (\enquote{Reflektionen über das Vertrauen
-in das Vertrauen}) zusammenfasst: \enquote{Die Moral der Geschichte ist
-offensichtlich: Du kannst Code, welchen du nicht vollständig selbst erstellt
-hast, nicht vertrauen.}~\cite{trusting-trust}
-
-As Ken Thompson showed in his Turing Award lecture, trust is an
-extremely tricky thing in the computational world. When running a
-program, you have to trust all kinds of software (and hardware) which,
-in theory, could alter the program you are trying to run in a malicious
-way. As Thompson summarized in his \textit{Reflections on Trusting Trust}:
-\enquote{The moral is obvious. You can't trust code that you did not totally
-create yourself.}~\cite{trusting-trust}
+einer vielzahl von Software (und Hardware) vertrauen die theoretisch das
+Programm, welches du ausführst, in bösartiger Weise verändern könnten. Wie
+Thompson in seinen \textit{Reflections on Trusting Trust} (\enquote{Reflektionen
+über das Vertrauen in das Vertrauen}) zusammenfasst: \enquote{Die Moral der
+Geschichte ist offensichtlich: Du kannst Code, welchen du nicht vollständig
+selbst erstellt hast, nicht vertrauen.}~\cite{trusting-trust}
 
 \begin{figure}
   \includegraphics{assets/images/ken-thompson-hack.png}
@@ -75,16 +68,16 @@ create yourself.}~\cite{trusting-trust}
 \end{figure}
 
 Thompson zeigte, dass selbst wenn man Zugriff auf den Quellcode hat, der
-Compiler --- oder jedes andere Programm, das Programme oder Hardware verarbeitet
---- kompromittiert werden könnte, und diese Hintertür zu erkennen wäre sehr
-schwierig. In der Praxis gibt es also kein System welches vollständig
+Compiler --- oder jede andere Software, welche Programme oder auch Hardware
+verarbeitet --- kompromittiert werden könnte, und diese Hintertür zu erkennen
+wäre sehr schwierig. In der Praxis gibt es also kein System welches vollständig
 \enquote{trustless} ist, also ganz ohne Vertrauen auskommt. Man müsste die
 gesamte Software \textit{und} die gesamte Hardware (Assembler, Compiler, Linker
 usw.) von Grund auf neu erstellen, ohne die Hilfe von externer Software oder
 softwaregestützten Maschinen.
 
 \begin{quotation}\begin{samepage}
-\enquote{Wenn du einen Apfelkuchen von Anfang an selbst machen möchtest, musst
+\enquote{Wenn du einen Apfelkuchen von Grund auf selbst machen möchtest, musst
 du zuerst das Universum erfinden.}
 \begin{flushright} -- Carl Sagan\footnote{Carl Sagan, \textit{Cosmos} \cite{cosmos}}
 \end{flushright}\end{samepage}\end{quotation}
@@ -126,12 +119,12 @@ Die obigen Beispiele sollen verdeutlichen, dass \enquote{\textit{trustless}
 computing} utopisch ist. Bitcoin ist wohl das eine System welches dieser Utopie
 am nächsten kommt. Es ist \textit{vertrauensminimierend} — mit dem Ziel das
 Vertrauen wo immer möglich zu beseitigen. Wahrscheinlich ist die Kette des
-Vertrauens endlos denn man muss auch darauf vertrauen, dass die Berechnung
+Vertrauens endlos denn man muss auch darauf vertrauen, dass jede Berechnung
 Energie erfordert, dass P nicht gleich NP ist und dass man sich tatsächlich in
 der Basisrealität befindet und nicht in einer Simulation durch böswillige
 Akteure gefangen genommen wurde.
 
-Die Entwickler arbeiten an Tools und Verfahren, um das bestehende Vertrauen
+Mehrere Entwickler arbeiten an Tools und Verfahren, um das bestehende Vertrauen
 weiter minimeren zu können. Zum Beispiel haben die Bitcoin-Entwickler
 Gitian\footnote{\url{https://gitian.org/}} entwickelt, eine Methode zur
 Softwareverteilung durch Erstellung deterministischer Builds. Die Idee ist, dass
@@ -146,13 +139,13 @@ Es werden verschiedene Anstrengungen unternommen, um das Chicken-and-Egg-Problem
 des Bootstrapping zu verbessern auf das Ken Thompsons Hack so brillant
 hingewiesen hat~\cite{web:bootstrapping}. Ein solcher Aufwand ist
 Guix\footnote{\url{https://guix.gnu.org}} (ausgesprochen \textit{Geeks}). Es
-verwendet funktional deklariertes Paketmanagement das zu bit-by-bit
-reproduzierbaren Builds per Design führt. Das Ergebnis: Man muss keinem
-softwareliefernden Server vertrauen, da man überprüfen kann ob die servierte
-Binärdatei manipuliert wurde, indem man sie von Grund auf neu erstellt. Vor
-kurzem wurde ein Pull-Request gemerged, um Guix in den Bitcoin-Build-Prozess zu
-integrieren.\footnote{Siehe PR 15277 von \texttt{bitcoin-core}: \\
-\url{https://github.com/bitcoin/bitcoin/pull/15277}}
+verwendet funktional deklariertes Paketmanagement welches automatisch
+reproduzierbare Builds erstellt, die Bit-für-Bit überprüft werden können. Das
+Ergebnis: Man muss keinem softwareliefernden Server vertrauen, da man überprüfen
+kann ob die heruntergeladene Binärdatei manipuliert wurde, indem man sie von
+Grund auf neu erstellt. Vor kurzem wurde ein Pull-Request gemerged, um Guix in
+den Bitcoin-Build-Prozess zu
+integrieren.\footnote{\url{https://github.com/bitcoin/bitcoin/pull/15277}}
 
 \begin{figure}
   \includegraphics{assets/images/guix-bootstrap-dependencies.png}
