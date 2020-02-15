@@ -5,13 +5,13 @@
 \enquote{Nun laßt uns zu den Beweisen kommen}, sagte der König, \enquote{und dann zum Urteil.}
 \end{chapquote}
 
-Bitcoin zielt darauf ab konventionelle Währungen zu ersetzen oder zumindest eine
+Bitcoin zielt darauf ab, konventionelle Währungen zu ersetzen oder zumindest eine
 Alternative zu diesen zu bieten. Eine konventionelle Währung ist an eine
 zentrale Behörde gebunden, egal ob es sich um gesetzliche Zahlungsmittel wie den
 US-Dollar oder modernes Monopolygeld wie WoW-Gold oder V-Bucks von Fortnite
 handelt. In beiden Beispielen bist du gezwungen der zentralen Behörde in Sachen
-Verwaltung und Erstellung zu vertrauen. Vertrauen ist auch nötig wenn is darum
-geht das erstellte Geld auf eine faire Art und Weise in Umlauf zu bringen.
+Verwaltung und Erstellung zu vertrauen. Vertrauen ist auch nötig wenn es darum
+geht, das erstellte Geld auf eine faire Art und Weise in Umlauf zu bringen.
 Bitcoin beseitigt diese Abhängigkeit, denn das Hauptproblem, das durch Bitcoin
 gelöst wird, ist das Problem des \textit{Vertrauens}.
 
@@ -52,7 +52,7 @@ d.h. von anderen Unternehmen/Staaten denen man vertrauen muss, dass sie unser
 Geld produzieren, halten und verarbeiten. Es ist jedoch anzunehmen, dass man zum
 Beispiel seinem Computer vertrauen kann.
 
-Wie Ken Thompson in seinem Turing Award Vortrag zeigte ist Vertrauen eine extrem
+Wie Ken Thompson in seinem Turing Award Vortrag zeigte, ist Vertrauen eine extrem
 schwierige Sache in der Computerwelt. Wenn du ein Programm ausführst, musst du
 einer vielzahl von Software (und Hardware) vertrauen die theoretisch das
 Programm, welches du ausführst, in bösartiger Weise verändern könnten. Wie
@@ -88,8 +88,8 @@ Hintertür, die ohne Änderung der Software funktioniert. Forscher fanden einen
 Weg sicherheitskritische Hardware zu kompromittieren, indem sie die Polarität
 der Siliziumverunreinigungen änderten.~\cite{becker2013stealthy}  Allein durch
 die Änderung der physikalischen Eigenschaften des Materials aus dem die
-Computerchips bestehen konnten sie einen kryptographisch sicheren
-Zufallszahlengenerator kompromittieren. Da diese Änderung nicht sichtbar ist
+Computerchips bestehen, konnten sie einen kryptographisch sicheren
+Zufallszahlengenerator kompromittieren. Da diese Änderung nicht sichtbar ist,
 kann die Hintertür nicht durch optische Inspektion erkannt werden, was
 normalerweise einer der wichtigsten Mechanismen zur Manipulationserkennung für
 solche Chips ist.
@@ -101,7 +101,7 @@ solche Chips ist.
 \end{figure}
 
 Klingt beängstigend? Nun, selbst wenn du in der Lage wärst alles von vorne zu
-bauen müsstest du immer noch der zugrunde liegenden Mathematik vertrauen. Du
+bauen, müsstest du immer noch der zugrunde liegenden Mathematik vertrauen. Du
 musst darauf vertrauen, dass \textit{secp256k1} eine elliptische Kurve ohne
 Hintertüren ist. Ja, bösartige Hintertüren können in die mathematischen
 Grundlagen kryptographischer Funktionen eingefügt werden und das ist schon
@@ -116,10 +116,10 @@ kann sind einige davon.
 \end{flushright}\end{samepage}\end{quotation}
 
 Die obigen Beispiele sollen verdeutlichen, dass \enquote{\textit{trustless}
-computing} utopisch ist. Bitcoin ist wohl das eine System welches dieser Utopie
+computing} utopisch ist. Bitcoin ist wohl das eine System, welches dieser Utopie
 am nächsten kommt. Es ist \textit{vertrauensminimierend} — mit dem Ziel das
-Vertrauen wo immer möglich zu beseitigen. Wahrscheinlich ist die Kette des
-Vertrauens endlos denn man muss auch darauf vertrauen, dass jede Berechnung
+Vertrauen, wo immer möglich, zu beseitigen. Wahrscheinlich ist die Kette des
+Vertrauens endlos, denn man muss auch darauf vertrauen, dass jede Berechnung
 Energie erfordert, dass P nicht gleich NP ist und dass man sich tatsächlich in
 der Basisrealität befindet und nicht in einer Simulation durch böswillige
 Akteure gefangen genommen wurde.
@@ -129,17 +129,17 @@ weiter minimeren zu können. Zum Beispiel haben die Bitcoin-Entwickler
 Gitian\footnote{\url{https://gitian.org/}} entwickelt, eine Methode zur
 Softwareverteilung durch Erstellung deterministischer Builds. Die Idee ist, dass
 wenn mehrere Entwickler in der Lage sind identische Binärdateien zu
-reproduzieren die Wahrscheinlichkeit bösartiger Manipulationen reduziert wird.
+reproduzieren, die Wahrscheinlichkeit bösartiger Manipulationen reduziert wird.
 Ausgefallene Hintertüren sind jedoch nicht der einzige Angriffsvektor. Auch
 einfache Bedrohung oder Erpressung sind echte Probleme. Wie auch im
-Hauptprotokoll wird die Dezentralisierung genutzt um das Vertrauen zu
+Hauptprotokoll wird die Dezentralisierung genutzt, um das Vertrauen zu
 minimieren.
 
 Es werden verschiedene Anstrengungen unternommen, um das Chicken-and-Egg-Problem
 des Bootstrapping zu verbessern auf das Ken Thompsons Hack so brillant
 hingewiesen hat~\cite{web:bootstrapping}. Ein solcher Aufwand ist
 Guix\footnote{\url{https://guix.gnu.org}} (ausgesprochen \textit{Geeks}). Es
-verwendet funktional deklariertes Paketmanagement welches automatisch
+verwendet funktional deklariertes Paketmanagement, welches automatisch
 reproduzierbare Builds erstellt, die Bit-für-Bit überprüft werden können. Das
 Ergebnis: Man muss keinem softwareliefernden Server vertrauen, da man überprüfen
 kann ob die heruntergeladene Binärdatei manipuliert wurde, indem man sie von
@@ -169,7 +169,7 @@ ist. Es gibt einen Grund warum Aufbewahrungsprotokolle wie
 Glacier\footnote{\url{https://glacierprotocol.org/}} empfehlen, Würfel in
 Casinoqualität als eine von zwei Quellen der Entropie zu verwenden.
 
-Bitcoin zwang mich darüber nachzudenken was es bedeutet niemandem zu vertrauen.
+Bitcoin zwang mich darüber nachzudenken was es bedeutet, niemandem zu vertrauen.
 Es schärfte mein Bewusstsein für das Bootstrapping-Problem und die implizite
 Vertrauenskette bei der Entwicklung und Ausführung von Software. Es hat auch
 mein Bewusstsein für die vielen Möglichkeiten geschärft wie Soft- und Hardware
