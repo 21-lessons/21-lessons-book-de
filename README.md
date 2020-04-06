@@ -1,9 +1,10 @@
-# 21 Lessons
+# 21 Lektionen
 
 This repository contains the LaTeX source code for the print version of *21
-Lessons - What I've Learned from Falling Down the Bitcoin Rabbit Hole*.
+Lektionen - Meine Reise in den Bitcoin Kaninchenbau*, the German translation of
+the book [21 Lessons](https://github.com/dergigi/21lessons-book).
 
-![](https://21lessons.com/assets/images/21-lessons-book.png)
+![](https://raw.githubusercontent.com/dergigi/21-lessons-book-de/master/assets/mockup-de-transparent.png)
 
 ## About This Book
 
@@ -23,24 +24,19 @@ issue directly, if you can, by creating a pull request.
 
 ## Print Version
 
-Version [0.3.11](https://github.com/dergigi/21lessons-book/releases/tag/0.3.11)
-marks the first edition of the book, released on December 24, 2019. It is
-available on [Amazon](https://amzn.to/2VXmQgp).
-
-## eBook Versions
-
-The [ebook branch](https://github.com/dergigi/21lessons-book/tree/ebook) holds a
-slightly modified version of the source code suitable for building the eBook
-versions of the book.
+Version
+[0.3.15-de](https://github.com/dergigi/21-lessons-book-de/releases/tag/0.3.15-de)
+marks the first edition of the German version of the book, released on March 6,
+2020. It is available on [Amazon](https://amzn.to/2VZXe2o).
 
 ## Online Version
 
-The [online version](https://github.com/21-lessons/21-lessons.github.io) of this
-book is freely available on [21lessons.com](https://21lessons.com), including an
-audio version read by Guy Swann from the Cryptoconomy podcast. While the online
-version is pretty much the same as the print version, there is some additional
-content in the print version: a foreword by Hass McCook, and a quick
-introductory section about the book (and about the author).
+The English [online version](https://github.com/21-lessons/21-lessons.github.io)
+of this book is freely available on [21lessons.com](https://21lessons.com),
+including an audio version read by Guy Swann from the Cryptoconomy podcast.
+While the online version is pretty much the same as the print version, there is
+some additional content in the print version: a foreword by Hass McCook, and a
+quick introductory section about the book (and about the author).
 
 ## Translations
 
@@ -56,8 +52,8 @@ to various languages](https://21lessons.com/translations), including:
 * Japanese
 * Greek
 
-The German print version of the book has a [separate
-repository](https://github.com/dergigi/21-lessons-book-de), maintained by the
+The original English version of the book has a [separate
+repository](https://github.com/dergigi/21-lessons-book), maintained by the
 author.
 
 ## License
