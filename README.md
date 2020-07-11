@@ -51,6 +51,8 @@ to various languages](https://21lessons.com/translations), including:
 * Brazilian Portuguese
 * Japanese
 * Greek
+* Persian
+* Indonesian
 
 The original English version of the book has a [separate
 repository](https://github.com/dergigi/21-lessons-book), maintained by the
