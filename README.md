@@ -55,7 +55,7 @@ to various languages](https://21lessons.com/translations), including:
 * Indonesian
 
 The original English version of the book has a [separate
-repository](https://github.com/dergigi/21-lessons-book), maintained by the
+repository](https://github.com/21-lessons/21lessons-book), maintained by the
 author.
 
 ## License
