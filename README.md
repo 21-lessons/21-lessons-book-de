@@ -56,7 +56,7 @@ to various languages](https://21lessons.com/translations), including:
 * Italian
 * French
 
-The original English version of the book has a [separate
+The [original English version](https://amzn.to/2Wa4qJo) of the book has a [separate
 repository](https://github.com/21-lessons/21lessons-book), maintained by the
 author.
 
